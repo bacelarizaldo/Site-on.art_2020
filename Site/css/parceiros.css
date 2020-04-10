@@ -1,0 +1,52 @@
+.introducao-parceiros {
+  background: url(../img/bg-parceiros.svg) no-repeat center;
+  background-size:cover;
+  width: 100%;
+  
+}
+.titulo-parceiros{
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+h1{
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: black;
+}
+h1::after {
+  content: "";
+  display: block;
+  width: 107px;
+  height: 4px;
+  border-radius: 4px;
+  background: #ffffff;
+  margin: 6px auto 10px auto;
+}
+.quote_parceiros{
+  padding: 60px 0;
+  max-width: 480px;
+  margin: 0 auto;
+}
+.quote_parceiros p {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 25px ;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.quote_parceiros cite {
+  font-size: 18px;
+   font-weight: bold;
+   text-align: right;
+   float:right;
+   font-style: normal;
+}
+.parceiros{
+  
+  margin-top: 0px;
+
+}

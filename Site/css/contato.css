@@ -1,0 +1,123 @@
+.introducao-contato {
+  background: url(../img/bg-contato.svg) no-repeat center;
+  background-size:cover;
+  width: 100%;
+  
+}
+.titulo-contato{
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+h1{
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: black;
+}
+h1::after {
+  content: "";
+  display: block;
+  width: 107px;
+  height: 4px;
+  border-radius: 4px;
+  background: #ffffff;
+  margin: 6px auto 10px auto;
+}
+.orçamento h2{
+  padding: 40px 0;
+  color: #595959;
+  font-size: 24px;
+}
+.orçamento{
+  background: #D9E0E6;
+  width: 100%;
+}
+.form{
+  padding-right: 60px;
+  color: #484B4D;
+}
+
+.form label{
+  display: block;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 4px;
+}
+.form input{
+  display: block;
+  width: 100%;
+  border: 2px solid #595959;
+  margin-bottom: 20px;
+  padding: 7px;
+  font-size: 14px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form textarea{
+  display: block;
+  width: 100%;
+  height: 120px;
+  border: 2px solid #595959;
+  margin-bottom: 20px;
+  padding: 7px;
+  font-size: 14px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form button {
+  background:  #595959;
+  color: #ffffff;
+  border: none;
+  margin-bottom: 40px;
+}
+.orcamentos_dados{
+  color: #484B4D;
+}
+.orcamentos_dados h3{
+  font-size: 18px;
+  text-transform: capitalize;
+  line-height: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.orcamentos_dados span {
+  display: block;
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 10px;
+}
+.dados_email{
+  margin-top: 20px;
+}
+.dados_rua{
+  margin-top: 20px;
+}
+.dados_estado{
+  margin-top: 20px;
+}
+.redes_sociais ul li{
+  display: inline; 
+}
+.redes_sociais h2{  
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  padding-bottom: 0px;
+
+}
+.redes_sociais h2::after{
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  border-radius: 4px;
+  background: #595959;
+  margin: 6px  1px ;
+}
+.facebook{
+  padding-left: 50px;
+}
+
+
+
